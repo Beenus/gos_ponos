@@ -1,6 +1,6 @@
 {
   "name": "ГосПонос",
-  "short_name": "PWA",
+  "short_name": "ГосПонос",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
