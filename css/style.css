@@ -206,8 +206,12 @@ body {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  @media (max-width: 845px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .stat-item {
